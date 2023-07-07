@@ -45,3 +45,31 @@ public:
     this->next = nullptr;
   }
 };
+class Node5
+{
+public:
+  int key;
+  int value;
+  Node *next;
+
+  Node(int key, int value)
+  {
+    this->key = key;
+    this->value = value;
+    this->next = nullptr;
+  }
+};
+class Node6
+{
+public:
+  int key;
+  int value;
+  Node *next;
+
+  Node(int key, int value)
+  {
+    this->key = key;
+    this->value = value;
+    this->next = nullptr;
+  }
+};
