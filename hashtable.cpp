@@ -3,6 +3,20 @@
 using namespace std;
 const int SIZE = 10;
 
+class Node1
+{
+public:
+  int key;
+  int value;
+  Node *next;
+
+  Node(int key, int value)
+  {
+    this->key = key;
+    this->value = value;
+    this->next = nullptr;
+  }
+};
 class Node2
 {
 public:
@@ -19,6 +33,49 @@ public:
 };
 
 class Node4
+{
+public:
+  int key;
+  int value;
+  Node *next;
+
+  Node(int key, int value)
+  {
+    this->key = key;
+    this->value = value;
+    this->next = nullptr;
+  }
+};
+class Node5
+{
+public:
+  int key;
+  int value;
+  Node *next;
+
+  Node(int key, int value)
+  {
+    this->key = key;
+    this->value = value;
+    this->next = nullptr;
+  }
+};
+class Node6
+{
+public:
+  int key;
+  int value;
+  Node *next;
+
+  Node(int key, int value)
+  {
+    this->key = key;
+    this->value = value;
+    this->next = nullptr;
+  }
+};
+
+class Node7
 {
 public:
   int key;
