@@ -2,8 +2,7 @@
 #include <cstring>
 using namespace std;
 const int SIZE = 10;
-
-class Node1
+class Node
 {
 public:
   int key;
